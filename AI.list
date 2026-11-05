@@ -1,0 +1,78 @@
+# 静态规则：AI；有效规则：69
+# 修改日期：2026-11-05；筛选、格式转换、去重及公开域名补充。
+# SPDX-License-Identifier: GPL-2.0-only
+# 来源：blackmatrix7/ios_rule_script @ 0b6897dc17e0c513d25449c935a9694818e32f0c；GPL-2.0-only
+# 来源：v2fly/domain-list-community @ 3895d9a3a76de2c1598a10c5fefc38e3481117fa；MIT
+# Copyright (c) 2018-2019 V2Ray；保留 MIT 通知，见 licenses/V2Fly-MIT.txt。
+# 原作者：blackmatrix7；GNU GPL v2 全文见 licenses/blackmatrix7-GPL-2.0.txt。
+# 详细来源、修改与各部分授权见 NOTICE.md；文件哈希见 SHA256SUMS。
+
+DOMAIN,ai.google.dev
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,apple-relay.mask.apple-dns.net
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot-workspace.githubnext.com
+DOMAIN,copilot.cloud.microsoft
+DOMAIN,copilot.github.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN,models.github.ai
+DOMAIN,models.inference.ai.azure.com
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaiassets.blob.core.windows.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,sydney.bing.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,ant.dev
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,copilot.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,githubcopilot.net
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,kimi.ai
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,minimax.io
+DOMAIN-SUFFIX,moonshot.ai
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,openai.org
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,x.ai

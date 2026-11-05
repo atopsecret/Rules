@@ -1,0 +1,58 @@
+# 静态规则：Binance；有效规则：49
+# 修改日期：2026-11-05；筛选、格式转换、去重及公开域名补充。
+# SPDX-License-Identifier: GPL-2.0-only
+# 来源：blackmatrix7/ios_rule_script @ 0b6897dc17e0c513d25449c935a9694818e32f0c；GPL-2.0-only
+# 来源：v2fly/domain-list-community @ 3895d9a3a76de2c1598a10c5fefc38e3481117fa；MIT
+# Copyright (c) 2018-2019 V2Ray；保留 MIT 通知，见 licenses/V2Fly-MIT.txt。
+# 原作者：blackmatrix7；GNU GPL v2 全文见 licenses/blackmatrix7-GPL-2.0.txt。
+# 详细来源、修改与各部分授权见 NOTICE.md；文件哈希见 SHA256SUMS。
+
+DOMAIN,zftksc.cdn-settings.appsflyersdk.com
+DOMAIN,zftksc.launches.appsflyersdk.com
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,binance.cc
+DOMAIN-SUFFIX,binance.charity
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.co
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.net
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,binanceapi.com
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,binanceru.net
+DOMAIN-SUFFIX,binancezh.be
+DOMAIN-SUFFIX,binancezh.biz
+DOMAIN-SUFFIX,binancezh.cc
+DOMAIN-SUFFIX,binancezh.co
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binancezh.info
+DOMAIN-SUFFIX,binancezh.ink
+DOMAIN-SUFFIX,binancezh.kim
+DOMAIN-SUFFIX,binancezh.link
+DOMAIN-SUFFIX,binancezh.live
+DOMAIN-SUFFIX,binancezh.mobi
+DOMAIN-SUFFIX,binancezh.net
+DOMAIN-SUFFIX,binancezh.pro
+DOMAIN-SUFFIX,binancezh.sh
+DOMAIN-SUFFIX,binancezh.top
+DOMAIN-SUFFIX,bmwweb.solutions
+DOMAIN-SUFFIX,bnappweb.black
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnbchain.org
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,bsappapi.cc
+DOMAIN-SUFFIX,bsappapi.com
+DOMAIN-SUFFIX,bscdnweb.com
+DOMAIN-SUFFIX,nftstatic.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.co
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,saasexch.info
+DOMAIN-SUFFIX,saasexch.io

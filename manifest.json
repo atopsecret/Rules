@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-05",
+  "repository": "atopsecret/Rules",
+  "branch": "main",
+  "publication_mode": "static-manual",
+  "automatic_search": false,
+  "scheduled_updates": false,
+  "total_rules": 9980,
+  "files": [
+    {
+      "file": "Ads.list",
+      "rule_count": 6319,
+      "bytes": 180895,
+      "sha256": "745c0f99bc29af7513466b97ced21c9623b5898900cf43f87b46f33d16cf2d66",
+      "verified_rule_body_sha256": "c7d76f6ed90d1a7f37f119bcaaaad8308ffc117863e29d0bbda03f9eb831684e",
+      "policy": "REJECT",
+      "extended_matching": true,
+      "license": "GPL-3.0-only",
+      "source_ids": [
+        "awavenue",
+        "easylistchina"
+      ],
+      "url": "https://raw.githubusercontent.com/atopsecret/Rules/main/Ads.list"
+    },
+    {
+      "file": "AI.list",
+      "rule_count": 69,
+      "bytes": 2783,
+      "sha256": "947e366735536216b74f2e1356903b51bba3ff1bb0c32d0535691ec3674cde9f",
+      "verified_rule_body_sha256": "e6d1a9b79f2cc973aa02542dd32edda7ee396a10716459eb1232c3178f7f34cc",
+      "policy": "Intelligence",
+      "extended_matching": true,
+      "license": "GPL-2.0-only",
+      "source_ids": [
+        "blackmatrix7",
+        "v2fly"
+      ],
+      "url": "https://raw.githubusercontent.com/atopsecret/Rules/main/AI.list"
+    },
+    {
+      "file": "Binance.list",
+      "rule_count": 49,
+      "bytes": 1988,
+      "sha256": "b3912c33505fcb674bd5055c608e756f4a36b07d166e8dc9c16754c569b4dfeb",
+      "verified_rule_body_sha256": "5c1cddeab025a190abe122bfc3a1f335c64d653d79058060b2a2bfc709039abf",
+      "policy": "Binance",
+      "extended_matching": false,
+      "license": "GPL-2.0-only",
+      "source_ids": [
+        "blackmatrix7",
+        "v2fly"
+      ],
+      "url": "https://raw.githubusercontent.com/atopsecret/Rules/main/Binance.list"
+    },
+    {
+      "file": "Apple.list",
+      "rule_count": 107,
+      "bytes": 3869,
+      "sha256": "d5332f3a468ad45cbcd345464275811f7518d0913047947a19cbd5197a45baba",
+      "verified_rule_body_sha256": "c5b97823f5e44aa40def1087ae38e5fd80ed0a799713ce1909531271f8070de4",
+      "policy": "Apple",
+      "extended_matching": false,
+      "license": "MIT",
+      "source_ids": [
+        "v2fly"
+      ],
+      "url": "https://raw.githubusercontent.com/atopsecret/Rules/main/Apple.list"
+    },
+    {
+      "file": "Domestic.list",
+      "rule_count": 1760,
+      "bytes": 48771,
+      "sha256": "44629fb05a36928805d16f117cfda3fc5539b7c5d44a2b4b2182a960f6efdcc0",
+      "verified_rule_body_sha256": "c5afc15328b786e861f6dd0135664c3d672697aa3a4951a08943825e9fb614cc",
+      "policy": "DIRECT",
+      "extended_matching": true,
+      "license": "MIT",
+      "source_ids": [
+        "v2fly"
+      ],
+      "url": "https://raw.githubusercontent.com/atopsecret/Rules/main/Domestic.list"
+    },
+    {
+      "file": "Proxy.list",
+      "rule_count": 1676,
+      "bytes": 48762,
+      "sha256": "42d7b184fe64cc5238f5a6a0e5d19275262784fb79f13cec2a77cb16873cda22",
+      "verified_rule_body_sha256": "c983250a95431b5c9d51f4b8ba7a20384417b17499c76c56dd32b2c9f3b6b92b",
+      "policy": "Proxy",
+      "extended_matching": true,
+      "license": "MIT for V2Fly portions; official public Telegram CIDRs",
+      "source_ids": [
+        "v2fly",
+        "telegram"
+      ],
+      "url": "https://raw.githubusercontent.com/atopsecret/Rules/main/Proxy.list"
+    }
+  ],
+  "sources": [
+    {
+      "id": "awavenue",
+      "repository": "TG-Twilight/AWAvenue-Ads-Rule",
+      "commit": "72dd30fb6d5e2ff7b5bcdbecf164d288f41d9dfa",
+      "license": "GPL-3.0-only",
+      "source_url": "https://github.com/TG-Twilight/AWAvenue-Ads-Rule/tree/72dd30fb6d5e2ff7b5bcdbecf164d288f41d9dfa"
+    },
+    {
+      "id": "easylistchina",
+      "repository": "easylist/easylistchina",
+      "commit": "4c773f8b44478a3cb975580c95eca9aa5e985b2c",
+      "license": "GPL-3.0-or-later (selected)",
+      "source_url": "https://github.com/easylist/easylistchina/tree/4c773f8b44478a3cb975580c95eca9aa5e985b2c"
+    },
+    {
+      "id": "blackmatrix7",
+      "repository": "blackmatrix7/ios_rule_script",
+      "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+      "license": "GPL-2.0-only",
+      "source_url": "https://github.com/blackmatrix7/ios_rule_script/tree/0b6897dc17e0c513d25449c935a9694818e32f0c"
+    },
+    {
+      "id": "v2fly",
+      "repository": "v2fly/domain-list-community",
+      "commit": "3895d9a3a76de2c1598a10c5fefc38e3481117fa",
+      "license": "MIT",
+      "source_url": "https://github.com/v2fly/domain-list-community/tree/3895d9a3a76de2c1598a10c5fefc38e3481117fa"
+    },
+    {
+      "id": "telegram",
+      "source_url": "https://core.telegram.org/resources/cidr.txt",
+      "snapshot_date": "2026-11-05",
+      "networks": 14,
+      "sha256": "3ecd072cedf72eceee6961b18a51e37f905d5ce4a656a5d24cf5fea63e6ec651",
+      "license": "not inferred; official public network data"
+    }
+  ]
+}
