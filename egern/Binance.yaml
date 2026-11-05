@@ -1,0 +1,62 @@
+# 静态规则：Binance；有效规则：49
+# 修改日期：2026-11-05；筛选、格式转换、去重及公开域名补充。
+# SPDX-License-Identifier: GPL-2.0-only
+# 来源：blackmatrix7/ios_rule_script @ 0b6897dc17e0c513d25449c935a9694818e32f0c；GPL-2.0-only
+# 来源：v2fly/domain-list-community @ 3895d9a3a76de2c1598a10c5fefc38e3481117fa；MIT
+# Copyright (c) 2018-2019 V2Ray；保留 MIT 通知，见 licenses/V2Fly-MIT.txt。
+# 原作者：blackmatrix7；GNU GPL v2 全文见 licenses/blackmatrix7-GPL-2.0.txt。
+# 详细来源、修改与各部分授权见 NOTICE.md；文件哈希见 SHA256SUMS。
+# Egern 原生集合：由同目录上一级静态 .list 逐条格式转换，无新增网络来源。
+# 集合不含策略；策略由主配置 rule_set.policy 指定。
+
+domain_set:
+  - "zftksc.cdn-settings.appsflyersdk.com"
+  - "zftksc.launches.appsflyersdk.com"
+domain_suffix_set:
+  - "appsflayer.com"
+  - "binance.cc"
+  - "binance.charity"
+  - "binance.cloud"
+  - "binance.co"
+  - "binance.com"
+  - "binance.info"
+  - "binance.me"
+  - "binance.net"
+  - "binance.org"
+  - "binance.us"
+  - "binance.vision"
+  - "binanceapi.com"
+  - "binancecnt.com"
+  - "binancefuture.com"
+  - "binanceru.net"
+  - "binancezh.be"
+  - "binancezh.biz"
+  - "binancezh.cc"
+  - "binancezh.co"
+  - "binancezh.com"
+  - "binancezh.info"
+  - "binancezh.ink"
+  - "binancezh.kim"
+  - "binancezh.link"
+  - "binancezh.live"
+  - "binancezh.mobi"
+  - "binancezh.net"
+  - "binancezh.pro"
+  - "binancezh.sh"
+  - "binancezh.top"
+  - "bmwweb.solutions"
+  - "bnappweb.black"
+  - "bnappzh.co"
+  - "bnbchain.org"
+  - "bnbstatic.com"
+  - "bnbzh.ac"
+  - "bntrace.com"
+  - "bsappapi.cc"
+  - "bsappapi.com"
+  - "bscdnweb.com"
+  - "nftstatic.com"
+  - "saasexch.cc"
+  - "saasexch.co"
+  - "saasexch.com"
+  - "saasexch.info"
+  - "saasexch.io"

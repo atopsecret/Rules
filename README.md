@@ -23,6 +23,8 @@ RULE-SET,https://raw.githubusercontent.com/atopsecret/Rules/main/Proxy.list,Prox
 
 ## 列表范围
 
+Egern 使用[原生 YAML 版本](egern/README.md)。六份原生集合与下面的 Surge 列表条件等价，策略仍由主配置指定；旧 `.list` 地址保持不变。
+
 - [Ads.list](Ads.list)：6,319 条广告域名规则。只采用可明确转换的域名阻断，不导入网页元素规则、宽泛关键词或广告 IP 段。
 - [AI.list](AI.list)：69 条海外 AI 服务规则，使用 `Intelligence`。不把整个 Google、Microsoft 或 GitHub 平台放进 AI 分流。
 - [Binance.list](Binance.list)：49 条 Binance 服务规则。

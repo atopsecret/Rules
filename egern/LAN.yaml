@@ -1,0 +1,23 @@
+# Egern 原生局域网/特殊用途地址集合。
+# 范围依据公开 IP 地址分配事实，与 Surge 当前内置 LAN 列表的 14 条条件对应。
+# 参考：https://manual.nssurge.com/rules/ruleset.html#lan
+# Tailnet 的 100.64.0.0/10 和 fd7a:115c:a1e0::/48 必须先由主配置匹配。
+# 此版保留解析行为；无解析版本见 LAN-no-resolve.yaml。
+no_resolve: false
+domain_suffix_set:
+  - local
+ip_cidr_set:
+  - 0.0.0.0/8
+  - 10.0.0.0/8
+  - 100.64.0.0/10
+  - 127.0.0.0/8
+  - 169.254.0.0/16
+  - 172.16.0.0/12
+  - 192.0.0.0/24
+  - 192.0.2.0/24
+  - 192.168.0.0/16
+  - 224.0.0.0/4
+ip_cidr6_set:
+  - '::1/128'
+  - fc00::/7
+  - fe80::/10

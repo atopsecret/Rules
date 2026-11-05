@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-11-05",
+  "format": "Egern native rule set",
+  "manual_conversion": true,
+  "network_requests": 0,
+  "source_manifest": "../manifest.json",
+  "source_notice": "../NOTICE.md",
+  "total_rules": 9980,
+  "files": {
+    "Ads": {
+      "rules": 6319,
+      "type_counts": {
+        "DOMAIN": 619,
+        "DOMAIN-SUFFIX": 5700
+      },
+      "no_resolve": false,
+      "condition_sha256": "e0efd23a2c2e63b4d487100b9167c3e8b0fe08766728f9117122db5c40532e39",
+      "source": "../Ads.list",
+      "source_sha256": "745c0f99bc29af7513466b97ced21c9623b5898900cf43f87b46f33d16cf2d66",
+      "file": "Ads.yaml",
+      "bytes": 134878,
+      "sha256": "524609c581eafee6016cf600268a0e74a007a997824d7806a4fa243f3fa0017e"
+    },
+    "AI": {
+      "rules": 69,
+      "type_counts": {
+        "DOMAIN": 22,
+        "DOMAIN-SUFFIX": 47
+      },
+      "no_resolve": false,
+      "condition_sha256": "b3a9524d0eaf304a30a9704709600234e976bc40b26140ccc55c1e3d9b0b253c",
+      "source": "../AI.list",
+      "source_sha256": "947e366735536216b74f2e1356903b51bba3ff1bb0c32d0535691ec3674cde9f",
+      "file": "AI.yaml",
+      "bytes": 2587,
+      "sha256": "b4cedca046d8eb86312b4d89eaef788659e9e3c3357d147d636a06704aa180de"
+    },
+    "Binance": {
+      "rules": 49,
+      "type_counts": {
+        "DOMAIN": 2,
+        "DOMAIN-SUFFIX": 47
+      },
+      "no_resolve": false,
+      "condition_sha256": "d06897630ce750d3558fb6d8d8043c15decceabe591741a33dd88e147f4aa7c9",
+      "source": "../Binance.list",
+      "source_sha256": "b3912c33505fcb674bd5055c608e756f4a36b07d166e8dc9c16754c569b4dfeb",
+      "file": "Binance.yaml",
+      "bytes": 1812,
+      "sha256": "c3acab0a335ed3baaac725bde68c68226ba7b89ec143d5948f3e2b6e4d7f946a"
+    },
+    "Apple": {
+      "rules": 107,
+      "type_counts": {
+        "DOMAIN": 8,
+        "DOMAIN-SUFFIX": 99
+      },
+      "no_resolve": false,
+      "condition_sha256": "e331ad580067b1247e0bcdd21bd85a2a8a43aef8bff29c7104efa956bfba21c8",
+      "source": "../Apple.list",
+      "source_sha256": "d5332f3a468ad45cbcd345464275811f7518d0913047947a19cbd5197a45baba",
+      "file": "Apple.yaml",
+      "bytes": 3271,
+      "sha256": "682669c1c00908907d6d9896b662eb4b0a9a3e5b055a9546cc31f956b2614908"
+    },
+    "Domestic": {
+      "rules": 1760,
+      "type_counts": {
+        "DOMAIN": 1,
+        "DOMAIN-SUFFIX": 1759
+      },
+      "no_resolve": false,
+      "condition_sha256": "5ca411d02a5d508f36be38149636561de8173850553d38a8b9577ac69b3400b8",
+      "source": "../Domestic.list",
+      "source_sha256": "44629fb05a36928805d16f117cfda3fc5539b7c5d44a2b4b2182a960f6efdcc0",
+      "file": "Domestic.yaml",
+      "bytes": 34900,
+      "sha256": "d6aa7ce58ecd3eedfdecb3dd1897b1979cc33ad73c3ff486ff9b906bcb47634b"
+    },
+    "Proxy": {
+      "rules": 1676,
+      "type_counts": {
+        "DOMAIN": 69,
+        "DOMAIN-SUFFIX": 1593,
+        "IP-CIDR": 9,
+        "IP-CIDR6": 5
+      },
+      "no_resolve": true,
+      "condition_sha256": "184032eed34ad1e13d717f6b98ef03df0548e01a54b7a7aa4feb216f7b9ddb36",
+      "source": "../Proxy.list",
+      "source_sha256": "42d7b184fe64cc5238f5a6a0e5d19275262784fb79f13cec2a77cb16873cda22",
+      "file": "Proxy.yaml",
+      "bytes": 36008,
+      "sha256": "ce6cab518e2169855abd073a0939cf5929739024b9d3765ea9119385b66c0430"
+    }
+  },
+  "support_files": {
+    "LAN": {
+      "file": "LAN.yaml",
+      "bytes": 655,
+      "sha256": "85dea225f853850c9e9f13621be69132f6bd0972977a9b73800cd53f32538dab",
+      "rules": 14,
+      "basis": "https://manual.nssurge.com/rules/ruleset.html#lan"
+    },
+    "LAN-no-resolve": {
+      "file": "LAN-no-resolve.yaml",
+      "bytes": 610,
+      "sha256": "a61b41375bc8f88062550f845f7bf32846a7a965d6e6660365717fda84eb009d",
+      "rules": 14,
+      "basis": "https://manual.nssurge.com/rules/ruleset.html#lan"
+    }
+  }
+}
