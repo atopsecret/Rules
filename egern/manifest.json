@@ -95,6 +95,23 @@
       "sha256": "ce6cab518e2169855abd073a0939cf5929739024b9d3765ea9119385b66c0430"
     }
   },
+  "optional_files": {
+    "TikTok": {
+      "file": "TikTok.yaml",
+      "bytes": 1485,
+      "sha256": "ed315711901c26d561a791ed1e2c595544c388a879c83c974bf1395ef07a4aea",
+      "rules": 34,
+      "type_counts": {
+        "domain_set": 2,
+        "domain_suffix_set": 32
+      },
+      "source": "https://raw.githubusercontent.com/v2fly/domain-list-community/3895d9a3a76de2c1598a10c5fefc38e3481117fa/data/tiktok",
+      "source_sha256": "1547d5be3241deb425bc195d04c4e1c00c0c46e1bf570d0e1b5eebd553ec030e",
+      "selection": "TikTok 专用域名及指定 CDN；排除共享遥测、AppsFlyer 跟踪地址和单独广告项",
+      "license": "MIT",
+      "policy": "TikTok"
+    }
+  },
   "support_files": {
     "LAN": {
       "file": "LAN.yaml",
