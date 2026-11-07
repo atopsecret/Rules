@@ -98,16 +98,37 @@
   "optional_files": {
     "TikTok": {
       "file": "TikTok.yaml",
-      "bytes": 1485,
-      "sha256": "ed315711901c26d561a791ed1e2c595544c388a879c83c974bf1395ef07a4aea",
-      "rules": 34,
+      "bytes": 1749,
+      "sha256": "65e0f0bc6ab8107cddd16846fbe9f54a3f44df43edc180adea13f3a2498ca250",
+      "rules": 39,
       "type_counts": {
-        "domain_set": 2,
-        "domain_suffix_set": 32
+        "domain_set": 1,
+        "domain_suffix_set": 38
       },
       "source": "https://raw.githubusercontent.com/v2fly/domain-list-community/3895d9a3a76de2c1598a10c5fefc38e3481117fa/data/tiktok",
       "source_sha256": "1547d5be3241deb425bc195d04c4e1c00c0c46e1bf570d0e1b5eebd553ec030e",
-      "selection": "TikTok 专用域名及指定 CDN；排除共享遥测、AppsFlyer 跟踪地址和单独广告项",
+      "supplemental_sources": [
+        {
+          "source": "https://raw.githubusercontent.com/v2fly/domain-list-community/3895d9a3a76de2c1598a10c5fefc38e3481117fa/data/bytedance",
+          "sha256": "333067707eabbfe623d9060abc95479dfd322e38df6f6c2eb0128dfe49f6f7c3",
+          "domain_suffix_set": [
+            "byteoversea.com",
+            "byteoversea.net",
+            "ibytedtos.com",
+            "ibyteimg.com"
+          ]
+        },
+        {
+          "source": "https://raw.githubusercontent.com/akitaonrails/tiktok_analysis/main/docs/04-network-endpoints.md",
+          "sha256": "62c31d261d35b66abed80b19b4a5efbd9def2e5d634252be55691d6ab0132770",
+          "kind": "manual supplement of public device/API hostnames",
+          "domain_suffix_set": [
+            "isnssdk.com",
+            "sgsnssdk.com"
+          ]
+        }
+      ],
+      "selection": "TikTok 域名、指定 CDN 与海外验证和共享资源；排除国内公共根域名、AppsFlyer 跟踪地址和单独广告项",
       "license": "MIT",
       "policy": "TikTok"
     }

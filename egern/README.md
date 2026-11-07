@@ -64,7 +64,7 @@ shasum -a 256 -c SHA256SUMS
 
 ## 可选 TikTok 独立分流
 
-[TikTok.yaml](TikTok.yaml) 含 34 条 TikTok 专用域名及指定 CDN 条件，筛选自上述 V2Fly 固定提交的 `data/tiktok`，沿用 MIT 通知。它不计入六份核心列表的 9,980 条。
+[TikTok.yaml](TikTok.yaml) 含 39 条 TikTok 域名、指定 CDN 和海外共享依赖条件。V2Fly 条件筛选自上述固定提交的 `data/tiktok`、`data/bytedance`，沿用 MIT 通知；另外手工补充公开记录的 `isnssdk.com`、`sgsnssdk.com` 设备/API 域名，参考来源记录在文件及清单中。它不计入六份核心列表的 9,980 条。
 
 在主配置中先创建名为 `TikTok` 的手动选择策略组，放入自己可用的节点，再将下面的引用放在广告规则之后、国内服务与普通代理规则之前：
 
@@ -76,4 +76,6 @@ shasum -a 256 -c SHA256SUMS
     update_interval: 86400
 ```
 
-集合不包含字节公共根域名、CapCut 或 Trae 域名，不会因共享父域将国内抖音一并分入 TikTok；广告阻断仍先匹配。此配置只选择出口，不进行 HTTPS 解密、地区重写或解锁检测。能否播放取决于实际节点与 App 环境。
+`byteoversea.com`、`byteoversea.net`、`ibytedtos.com`、`ibyteimg.com`、`isnssdk.com`、`sgsnssdk.com` 是补齐的海外验证、资源与设备/API 依赖。将它们交给同一个 TikTok 策略，可以避免这部分请求落到普通代理或国内兜底，而视频请求另走一个出口。这些共享域名也可能被其他字节海外 App 使用。
+
+集合不包含 `bytedance.com`、`snssdk.com`、`pstatp.com` 等国内公共根域名；广告阻断仍先匹配。此配置只选择出口，不进行 HTTPS 解密、地区重写或解锁检测。播放、登录、验证码和评论仍需在实际客户端验收。

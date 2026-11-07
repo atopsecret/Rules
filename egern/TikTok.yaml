@@ -1,17 +1,24 @@
-# 独立 TikTok 分流；34 条静态规则；更新日期：2026-11-07。
-# 来源：v2fly/domain-list-community @ 3895d9a3a76de2c1598a10c5fefc38e3481117fa，data/tiktok。
+# 独立 TikTok 分流；39 条静态规则；更新日期：2026-11-07。
+# 来源：v2fly/domain-list-community @ 3895d9a3a76de2c1598a10c5fefc38e3481117fa，data/tiktok、data/bytedance。
 # 来源地址：https://github.com/v2fly/domain-list-community/blob/3895d9a3a76de2c1598a10c5fefc38e3481117fa/data/tiktok
 # Copyright (c) 2018-2019 V2Ray；MIT 通知见 ../licenses/V2Fly-MIT.txt。
-# 筛选：保留 TikTok 专用域名及指定 CDN；排除共享遥测域、AppsFlyer 跟踪地址和单独广告项。
+# 手工补充公开设备/API 域名：isnssdk.com、sgsnssdk.com。
+# 补充参考：https://github.com/akitaonrails/tiktok_analysis/blob/main/docs/04-network-endpoints.md
+# 筛选：TikTok 域名、指定 CDN 与海外验证/共享资源；不导入单独广告项和 AppsFlyer 跟踪地址。
 # 不包含 bytedance.com、snssdk.com、pstatp.com 等字节公共域名。
 # 不含解密或重写；本文件只负责分流，策略由主配置指定。
 
 domain_set:
-  - "p16-tiktok-dm-sticker-sign-sg.ibyteimg.com"
   - "p16-tiktokcdn-com.akamaized.net"
 domain_suffix_set:
+  - "byteoversea.com"
+  - "byteoversea.net"
+  - "ibytedtos.com"
+  - "ibyteimg.com"
+  - "isnssdk.com"
   - "muscdn.com"
   - "musical.ly"
+  - "sgsnssdk.com"
   - "tik-tokapi.com"
   - "tiktok-minis.com"
   - "tiktok-row.net"
