@@ -1,5 +1,5 @@
-# 静态规则：AI；有效规则：69
-# 修改日期：2026-11-05；筛选、格式转换、去重及公开域名补充。
+# 静态规则：AI；有效规则：70
+# 修改日期：2026-11-14；筛选、格式转换、去重及公开域名补充；SGTrae API 使用精确域名。
 # SPDX-License-Identifier: GPL-2.0-only
 # 来源：blackmatrix7/ios_rule_script @ 0b6897dc17e0c513d25449c935a9694818e32f0c；GPL-2.0-only
 # 来源：v2fly/domain-list-community @ 3895d9a3a76de2c1598a10c5fefc38e3481117fa；MIT
@@ -32,6 +32,7 @@ domain_set:
   - "production-openaicom-storage.azureedge.net"
   - "servd-anthropic-website.b-cdn.net"
   - "sydney.bing.com"
+  - "trae-api-sg.mchost.guru"
 domain_suffix_set:
   - "aistudio.google.com"
   - "ant.dev"

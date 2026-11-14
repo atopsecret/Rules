@@ -6,7 +6,7 @@
   "network_requests": 0,
   "source_manifest": "../manifest.json",
   "source_notice": "../NOTICE.md",
-  "total_rules": 9980,
+  "total_rules": 9981,
   "files": {
     "Ads": {
       "rules": 6319,
@@ -23,18 +23,18 @@
       "sha256": "524609c581eafee6016cf600268a0e74a007a997824d7806a4fa243f3fa0017e"
     },
     "AI": {
-      "rules": 69,
+      "rules": 70,
       "type_counts": {
-        "DOMAIN": 22,
+        "DOMAIN": 23,
         "DOMAIN-SUFFIX": 47
       },
       "no_resolve": false,
-      "condition_sha256": "b3a9524d0eaf304a30a9704709600234e976bc40b26140ccc55c1e3d9b0b253c",
+      "condition_sha256": "8afb9a6227fc51e155055941d4f134524b356bcf87e2f70c7b6724f8bea66853",
       "source": "../AI.list",
-      "source_sha256": "947e366735536216b74f2e1356903b51bba3ff1bb0c32d0535691ec3674cde9f",
+      "source_sha256": "7e79b46904a28a7b6902a25e40f5e8713c431e3d48c624ae104f3b8fc20b91ba",
       "file": "AI.yaml",
-      "bytes": 2587,
-      "sha256": "b4cedca046d8eb86312b4d89eaef788659e9e3c3357d147d636a06704aa180de"
+      "bytes": 2649,
+      "sha256": "8b9e078d85c3b71750ff458fc5c900a30cb76f00762890c010c1819441b91748"
     },
     "Binance": {
       "rules": 49,
@@ -65,34 +65,34 @@
       "sha256": "682669c1c00908907d6d9896b662eb4b0a9a3e5b055a9546cc31f956b2614908"
     },
     "Domestic": {
-      "rules": 1760,
+      "rules": 1756,
       "type_counts": {
         "DOMAIN": 1,
-        "DOMAIN-SUFFIX": 1759
+        "DOMAIN-SUFFIX": 1755
       },
       "no_resolve": false,
-      "condition_sha256": "5ca411d02a5d508f36be38149636561de8173850553d38a8b9577ac69b3400b8",
+      "condition_sha256": "a0d5053431f4bcdc639850ff07e5ba98ef45d520ef52952d8cff440020f7a086",
       "source": "../Domestic.list",
-      "source_sha256": "44629fb05a36928805d16f117cfda3fc5539b7c5d44a2b4b2182a960f6efdcc0",
+      "source_sha256": "f7361560a1901194a9fb588d3854314af0e393431a79475b5cbd867f58864b72",
       "file": "Domestic.yaml",
-      "bytes": 34900,
-      "sha256": "d6aa7ce58ecd3eedfdecb3dd1897b1979cc33ad73c3ff486ff9b906bcb47634b"
+      "bytes": 34865,
+      "sha256": "ffb8e870e8e944b6ee8252cca04966683735cf9cb050ea6c0cbf7959bc014e54"
     },
     "Proxy": {
-      "rules": 1676,
+      "rules": 1680,
       "type_counts": {
         "DOMAIN": 69,
-        "DOMAIN-SUFFIX": 1593,
+        "DOMAIN-SUFFIX": 1597,
         "IP-CIDR": 9,
         "IP-CIDR6": 5
       },
       "no_resolve": true,
-      "condition_sha256": "184032eed34ad1e13d717f6b98ef03df0548e01a54b7a7aa4feb216f7b9ddb36",
+      "condition_sha256": "94a849da7984dc9f1959e13be5c72e434a7ea6934a8170b427cc4cb934e7315a",
       "source": "../Proxy.list",
-      "source_sha256": "42d7b184fe64cc5238f5a6a0e5d19275262784fb79f13cec2a77cb16873cda22",
+      "source_sha256": "1d8271f4532a1bef1641d666f3a7d5bf3faf248fdb73973cbe7f74d0372f5149",
       "file": "Proxy.yaml",
-      "bytes": 36008,
-      "sha256": "ce6cab518e2169855abd073a0939cf5929739024b9d3765ea9119385b66c0430"
+      "bytes": 36119,
+      "sha256": "6e470b0c4d17afd428637a75f96f48f2155e81d00d8b7cc552fdba13d927b6f3"
     }
   },
   "optional_files": {

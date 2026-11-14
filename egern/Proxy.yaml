@@ -1,5 +1,5 @@
-# 静态规则：Proxy；有效规则：1676
-# 修改日期：2026-11-05；筛选、格式转换、去重及公开域名补充。
+# 静态规则：Proxy；有效规则：1680
+# 修改日期：2026-11-14；筛选、格式转换、去重及公开域名补充；补入四个 ABC 美国媒体后缀。
 # 来源：v2fly/domain-list-community @ 3895d9a3a76de2c1598a10c5fefc38e3481117fa；MIT
 # 来源：https://core.telegram.org/resources/cidr.txt；仅官方公开网络数据，不推定其许可证。
 # Copyright (c) 2018-2019 V2Ray；保留 MIT 通知，见 licenses/V2Fly-MIT.txt。
@@ -92,6 +92,9 @@ domain_suffix_set:
   - "a-msedge.net"
   - "aadrm.cn"
   - "aadrm.com"
+  - "abc-studios.com"
+  - "abc.com"
+  - "abcnews.com"
   - "actifio.com"
   - "adaptivecards.io"
   - "adgoogle.net"
@@ -480,6 +483,7 @@ domain_suffix_set:
   - "dssott.com"
   - "dynamics.cn"
   - "dynamics.com"
+  - "edgedatg.com"
   - "efproject.net"
   - "elderscrolls.com"
   - "encryptedsni.com"

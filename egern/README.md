@@ -1,6 +1,6 @@
 # Egern 原生远程规则
 
-六份核心 YAML 与上一级六份 Surge `.list` 使用同一批静态条件，共 9,980 条。这六份只做格式转换，不另抓取社区内容，不带节点、策略或私人配置。下方的局域网辅助集合和可选 TikTok 集合单独计数。
+六份核心 YAML 与上一级六份 Surge `.list` 使用同一批静态条件，共 9,981 条。这六份只做格式转换，不另抓取社区内容，不带节点、策略或私人配置。下方的局域网辅助集合和可选 TikTok 集合单独计数。
 
 ## 引用
 
@@ -58,13 +58,13 @@ shasum -a 256 -c SHA256SUMS
 
 ## 局域网辅助集合
 
-[LAN.yaml](LAN.yaml) 与 [LAN-no-resolve.yaml](LAN-no-resolve.yaml) 各含同样 14 条条件，分别对应原配置两次内置 `LAN` 引用的解析行为。它们不是第七批社区规则，而是显式保留原 Surge 内置局域网范围；这 14 条地址/域名条件不计入上面六份列表的 9,980 条。
+[LAN.yaml](LAN.yaml) 与 [LAN-no-resolve.yaml](LAN-no-resolve.yaml) 各含同样 14 条条件，分别对应原配置两次内置 `LAN` 引用的解析行为。它们不是第七批社区规则，而是显式保留原 Surge 内置局域网范围；这 14 条地址/域名条件不计入上面六份列表的 9,981 条。
 
 主配置中 Tailscale 域名与地址段必须放在 LAN 之前。内置 LAN 范围包含 `100.64.0.0/10` 和 IPv6 ULA；如果先用 LAN 直连，它会抢走 Tailnet 流量。
 
 ## 可选 TikTok 独立分流
 
-[TikTok.yaml](TikTok.yaml) 含 39 条 TikTok 域名、指定 CDN 和海外共享依赖条件。V2Fly 条件筛选自上述固定提交的 `data/tiktok`、`data/bytedance`，沿用 MIT 通知；另外手工补充公开记录的 `isnssdk.com`、`sgsnssdk.com` 设备/API 域名，参考来源记录在文件及清单中。它不计入六份核心列表的 9,980 条。
+[TikTok.yaml](TikTok.yaml) 含 39 条 TikTok 域名、指定 CDN 和海外共享依赖条件。V2Fly 条件筛选自上述固定提交的 `data/tiktok`、`data/bytedance`，沿用 MIT 通知；另外手工补充公开记录的 `isnssdk.com`、`sgsnssdk.com` 设备/API 域名，参考来源记录在文件及清单中。它不计入六份核心列表的 9,981 条。
 
 在主配置中先创建名为 `TikTok` 的手动选择策略组，放入自己可用的节点，再将下面的引用放在广告规则之后、国内服务与普通代理规则之前：
 

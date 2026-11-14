@@ -1,5 +1,5 @@
-# 静态规则：Domestic；有效规则：1760
-# 修改日期：2026-11-05；筛选、格式转换、去重及公开域名补充。
+# 静态规则：Domestic；有效规则：1756
+# 修改日期：2026-11-14；筛选、格式转换、去重及公开域名补充；移出四个 ABC 美国媒体后缀。
 # SPDX-License-Identifier: MIT
 # 来源：v2fly/domain-list-community @ 3895d9a3a76de2c1598a10c5fefc38e3481117fa；MIT
 # Copyright (c) 2018-2019 V2Ray；保留 MIT 通知，见 licenses/V2Fly-MIT.txt。
@@ -68,9 +68,6 @@ DOMAIN-SUFFIX,a-map.link
 DOMAIN-SUFFIX,a-map.vip
 DOMAIN-SUFFIX,aadcloud.cn
 DOMAIN-SUFFIX,aadcloud.com
-DOMAIN-SUFFIX,abc-studios.com
-DOMAIN-SUFFIX,abc.com
-DOMAIN-SUFFIX,abcnews.com
 DOMAIN-SUFFIX,abhouses.com
 DOMAIN-SUFFIX,acctdns.com
 DOMAIN-SUFFIX,acctdns.net
@@ -722,7 +719,6 @@ DOMAIN-SUFFIX,dxmyqh.com
 DOMAIN-SUFFIX,easytrip.com
 DOMAIN-SUFFIX,ectencent.cn
 DOMAIN-SUFFIX,ectencent.com.cn
-DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,edgeone.cool
 DOMAIN-SUFFIX,edgeonedy1.com
 DOMAIN-SUFFIX,eduapaashwc.com
